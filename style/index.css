@@ -336,7 +336,8 @@ ul {
 }
 
 .wrapp__content {
-  /* margin-top: -15px; */
+  width: 100%;
+  height: auto;
   padding-left: clamp(0rem, -0.9234rem + 3.0091vw, 2.6875rem);
   padding-right: clamp(0rem, -0.9234rem + 3.0091vw, 2.6875rem);
 }
