@@ -224,7 +224,7 @@ ul {
 
 /* ///// */
 .block-logo {
-  width: clamp(3.25rem, 0.9rem + 11.75vw, 15rem);
+  width: clamp(6.5625rem, 4.875rem + 8.4375vw, 15rem);
   height: auto;
   padding: 15px 0 15px 24px;
   text-align: center;
