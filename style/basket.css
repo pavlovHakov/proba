@@ -17,6 +17,8 @@
 }
 
 .block-logo {
+  width: clamp(3.25rem, 0.9rem + 11.75vw, 15rem);
+  height: auto;
   display: inline-block;
   text-decoration: none;
   padding: 15px 0;
