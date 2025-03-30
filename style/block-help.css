@@ -6,16 +6,13 @@
 */
 
 .block-help {
-  width: 400px;
-  width: clamp(18.5rem, 17.2rem + 6.5vw, 25rem);
+  width: clamp(19.125rem, 12.4107rem + 10.4911vw, 25rem);
+  height: auto;
   background: rgba(255, 255, 255, 0.28);
   backdrop-filter: blur(5px);
   box-shadow: -1px -1px 7px 0px rgba(105, 105, 105, .5);
   -moz-box-shadow: -1px -1px 7px 0px rgba(105, 105, 105, .5);
   -webkit-box-shadow: -1px -1px 7px 0px rgba(105, 105, 105, .5);
-
-
-  height: auto;
   position: fixed;
   right: clamp(0.125rem, -12.0494rem + 14.2599vw, 5.0625rem);
   bottom: 0;

@@ -1,67 +1,67 @@
 
 // сокрытие и показ блока справки
 
-// let block_help = document.querySelector(".block-help");
+let block_help = document.querySelector(".block-help");
 
-// function show() {
-//   block_help.classList.remove("hide-help");
-// }
+function show() {
+  block_help.classList.remove("hide-help");
+}
 
-// function hide() {
-//   block_help.classList.add("hide-help");
-// }
+function hide() {
+  block_help.classList.add("hide-help");
+}
 
-// // scroiiWindow событие
+// scroiiWindow событие
 
-// window.addEventListener("scroll", () => {
-//   const scrollY = window.scrollY || document.documentElement.scrollTop;
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY || document.documentElement.scrollTop;
 
-//   scrollY > 500 ? hide() : show();
-// });
+  scrollY > 500 ? hide() : show();
+});
 
-// // модальное окно
+// модальное окно
 
-// const modal = document.querySelectorAll(".modal-window");
+const modal = document.querySelectorAll(".modal-window");
 
-// const elemHelp = document.querySelectorAll(".block-help li");
+const elemHelp = document.querySelectorAll(".block-help li");
 
-// // открытие модального окна
+// открытие модального окна
 
-// function removeModalHide(item, key) {
-//   if (item.dataset.active == key) {
-//     item.addEventListener("click", (e) => {
-//       e.preventDefault();
-//       modal[key].classList.remove("modal-hide");
-//     });
-//   }
-// }
+function removeModalHide(item, key) {
+  if (item.dataset.active == key) {
+    item.addEventListener("click", (e) => {
+      e.preventDefault();
+      modal[key].classList.remove("modal-hide");
+    });
+  }
+}
 
-// elemHelp.forEach((item, key) => {
-//   removeModalHide(item, key);
-// });
+elemHelp.forEach((item, key) => {
+  removeModalHide(item, key);
+});
 
-// // закрытие модального окна
+// закрытие модального окна
 
-// function addModalHide(item, key) {
-//   if (item.dataset.active == key) {
-//     item.addEventListener("click", (e) => {
-//       e.preventDefault();
-//       modal[key].classList.add("modal-hide");
-//     });
-//   }
-// }
+function addModalHide(item, key) {
+  if (item.dataset.active == key) {
+    item.addEventListener("click", (e) => {
+      e.preventDefault();
+      modal[key].classList.add("modal-hide");
+    });
+  }
+}
 
-// // закрытие modal по крестику (help)
-// document.querySelectorAll(".x").forEach((item, key) => {
-//   addModalHide(item, key);
-// });
+// закрытие modal по крестику (help)
+document.querySelectorAll(".x").forEach((item, key) => {
+  addModalHide(item, key);
+});
 
-// // закрытие modal по экрану (help)
-// const block_pustoi = document.querySelectorAll(".block-pustoi");
+// закрытие modal по экрану (help)
+const block_pustoi = document.querySelectorAll(".block-pustoi");
 
-// block_pustoi.forEach((item, key) => {
-//   addModalHide(item, key);
-// });
+block_pustoi.forEach((item, key) => {
+  addModalHide(item, key);
+});
 
 // функция активной кнопки
 function addActiveCnp(elem, style) {
