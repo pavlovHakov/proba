@@ -420,6 +420,15 @@
   aspect-ratio: 2 / 3;
 
 }
+.item-basket-video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+}
+.item-basket-video video {
+  width: 100%;
+  height: auto;
+}
 
 .item-basket-img img {
   width: 100%;

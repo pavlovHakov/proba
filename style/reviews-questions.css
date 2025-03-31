@@ -943,7 +943,7 @@
   content: "";
   position: absolute;
   left: -4px;
-  top: -4px;
+  top: 6px;
   width: 30px;
   height: 30px;
   background: url(/img/svg/arrow-chat.png) no-repeat;
