@@ -355,7 +355,7 @@
   width: 23%;
   height: 100vh;
   background: #fff;
-  padding: 0 38px 15px 25px;
+  padding: 0 clamp(1rem, 0.725rem + 1.375vw, 2.375rem) 15px clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
 }
 
 .basket-block-title {
@@ -419,10 +419,6 @@
   height: clamp(46.25rem, 2.9375rem + 48.125vw, 60.6875rem);
   aspect-ratio: 2 / 3;
 }
-
-/* .m_bottom {
-  margin-bottom: clamp(0rem, -9.9375rem + 11.0417vw, 3.3125rem);
-} */
 
 .item-basket-video {
   width: 100%;
@@ -599,13 +595,13 @@
   .item-basket-img {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 398px) {
   .sidebar {
     min-width: 100%;
   }
+}
 
+@media screen and (max-width: 398px) {
   .block-help {
     display: none;
   }

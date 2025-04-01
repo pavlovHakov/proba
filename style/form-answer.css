@@ -24,9 +24,10 @@
   width: 100%;
   border: 1px solid #e8e6e6;
   border-radius: 5px;
-  padding: 10px 8px 8px;
-  font-size: 16px;
+  padding: 15px 14px 13px;
+  font-size: 17px;
   color: #737373;
+  margin-bottom: 23px;
   resize: none;
   overflow: auto;
 }
@@ -42,7 +43,7 @@
   width: 12px;
   height: 12px;
   position: absolute;
-  top: 7px;
+  top: 11px;
   right: 16px;
   opacity: 0.5;
   cursor: pointer;
@@ -71,17 +72,20 @@ input[type="email"]:focus {
 input[type="text"],
 input[type="email"] {
   width: 100%;
-  font-size: 15px;
+  font-size: 16px;
   background: #fff;
   color: rgb(20, 25, 27);
-  padding: 8px 40px 8px 8px;
+  padding: 11px 40px 8px 13px;
   border: 1px solid #e8e6e6;
   border-radius: 5px;
+  margin-bottom: 23px;
 }
 label {
-  font-size: 15px;
+  font-size: 16px;
   color: rgb(20, 25, 27);
   cursor: pointer;
+  display: block;
+  margin-bottom: 23px;
 }
 input[type="checkbox"] {
   width: 19px;
@@ -130,7 +134,7 @@ input[type="submit"],
   border-radius: 5px;
   margin-right: 10px;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   padding-bottom: 3px;
 }
 input[type="submit"]:hover {
