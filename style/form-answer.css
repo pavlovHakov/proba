@@ -43,7 +43,7 @@
   width: 12px;
   height: 12px;
   position: absolute;
-  top: 11px;
+  top: 18px;
   right: 16px;
   opacity: 0.5;
   cursor: pointer;
@@ -75,7 +75,7 @@ input[type="email"] {
   font-size: 16px;
   background: #fff;
   color: rgb(20, 25, 27);
-  padding: 11px 40px 8px 13px;
+  padding: 17px 40px 15px 13px;
   border: 1px solid #e8e6e6;
   border-radius: 5px;
   margin-bottom: 23px;
