@@ -87,7 +87,7 @@
   padding-left: clamp(1.0625rem, -4.023rem + 5.9567vw, 3.125rem);
   /* padding-right: 96px; */
   padding-right: clamp(1.0625rem, -11.1119rem + 14.2599vw, 6rem);
-  margin-top: clamp(0.5625rem, -3.9939rem + 8.5366vw, 6.25rem);
+  margin-top: 0;
 }
 
 .block-coments-stil {
