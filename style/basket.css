@@ -24,7 +24,8 @@
   padding: 15px 0;
   margin-top: clamp(0.25rem, -0.0375rem + 1.4375vw, 1.6875rem);
 }
-a:focus{
+
+a:focus {
   outline: none !important;
   background: transparent !important;
 }
@@ -531,6 +532,13 @@ a:focus{
   .desktop-block-description .description-ul li {
     margin-bottom: 14px;
   }
+
+  .text-title,
+  .sidebar-title {
+    letter-spacing: 1px;
+  }
+
+
 }
 
 @media screen and (max-width: 596px) {
@@ -599,11 +607,13 @@ a:focus{
   .item-basket-img {
     width: 100%;
   }
+
   .text-title,
   .sidebar-title {
     font-size: 18px;
     letter-spacing: 3px;
   }
+
   .sidebar {
     min-width: 100%;
   }
@@ -619,6 +629,7 @@ a:focus{
   .item-basket-img {
     height: 501px;
   }
+
   .mobile-block-description {
     padding-right: 0;
   }
