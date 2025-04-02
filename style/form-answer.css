@@ -166,6 +166,16 @@ input[type="submit"]:hover {
   display: none;
 }
 
+@media screen and (max-width: 768px) {
+.text-area{
+  font-size: 19px;
+}
+
+input[type="text"], input[type="email"]{
+  font-size: 19px;
+}
+}
+
 @media screen and (max-width: 425px) {
 
   input[type="submit"],

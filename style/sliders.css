@@ -35,6 +35,7 @@
 .slider-video {
   width: 100%;
   height: auto;
+  aspect-ratio: 2/3;
   position: relative;
   overflow: hidden;
 }
@@ -118,6 +119,7 @@
   margin: auto;
   /* padding: 30px; */
   width: 100%;
+  ;
   position: relative;
 }
 

@@ -752,7 +752,7 @@ a.card-menu.active-card:hover {
   }
 }
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 425px) {
   .header {
     height: 61px;
   }
