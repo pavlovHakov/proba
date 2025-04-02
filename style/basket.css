@@ -537,6 +537,10 @@ a:focus {
   .sidebar-title {
     letter-spacing: 1px;
   }
+  .cnp-purchases-basket, .cnp-purchases-buy {
+    height: 58px;
+    margin-bottom: 24px;
+  }
 
 
 }
