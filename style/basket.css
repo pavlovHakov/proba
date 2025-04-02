@@ -77,6 +77,7 @@
 }
 
 .mobile-block-description {
+  padding-right: 10px;
   display: none;
 }
 
@@ -120,7 +121,6 @@
 }
 
 .text-coments-stil {
-  font-size: 14px;
   line-height: 20px;
   color: #000;
 }
@@ -136,6 +136,7 @@
 }
 
 .description-ul li.article-color {
+  font-size: 18px;
   color: red;
   font-weight: 600;
 }
@@ -277,7 +278,7 @@
   align-items: center;
   background-color: #443e3e;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 4px;
   margin-top: 25px;
   cursor: pointer;
@@ -563,7 +564,6 @@
 
   .mobile-block-description {
     display: block;
-    margin-top: 20px;
   }
 
   .mobile-block-description h1 {
@@ -610,6 +610,9 @@
 @media screen and (max-width: 375px) {
   .item-basket-img {
     height: 501px;
+  }
+  .mobile-block-description {
+    padding-right: 0;
   }
 }
 

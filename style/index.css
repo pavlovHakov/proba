@@ -245,7 +245,9 @@ ul {
 .block-icons {
   width: auto;
   height: auto;
+  margin-top: 10px;
   display: flex;
+  position: relative;
 }
 
 .wrapp-icon {
@@ -292,6 +294,19 @@ ul {
   position: absolute;
   top: -17px;
   left: -22px;
+}
+
+.quantity {
+  width: 23px;
+  height: 23px;
+  text-align: center;
+  line-height: 24px;
+  background: rgb(192, 123, 123);
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -14px;
+  left: 55px;
 }
 
 .basket-white {
@@ -425,9 +440,8 @@ a.card-menu.active-card:hover {
   bottom: 20px;
   width: 40px;
   height: 39px;
-  font-size: 28px;
   text-align: center;
-  line-height: 32px;
+  line-height: 49px;
   border-radius: 50px;
   background: rgb(255 252 253 / 50%);
   backdrop-filter: blur(5px);
@@ -567,6 +581,12 @@ a.card-menu.active-card:hover {
   height: auto;
 }
 
+@media screen and (max-width: 1440px) {
+  .quantity {
+    left: 53.6px;
+  }
+}
+
 @media screen and (max-width: 1248px) {
   .card-content {
     width: 33%;
@@ -630,7 +650,11 @@ a.card-menu.active-card:hover {
     left: 0;
   }
 }
-
+@media screen and (max-width: 1024px) {
+  .quantity {
+    left: 45.6px;
+  }
+}
 @media screen and (max-width: 948px) {
   .card-content {
     width: 49.7%;
@@ -770,5 +794,10 @@ a.card-menu.active-card:hover {
 @media screen and (max-width: 350px) {
   .sidebur-header-menu {
     width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .quantity {
+    left: 44.5px;
   }
 }
