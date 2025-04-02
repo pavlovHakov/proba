@@ -1140,6 +1140,10 @@
 
 @media screen and (max-width: 768px) {
 
+  .title-reviews-block button, .percent-questions-block button {
+    height: 50px;
+  }
+
   .reviews_questions-block {
     padding-left: 52px;
   }
