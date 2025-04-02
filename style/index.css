@@ -5,9 +5,12 @@
 * Browsers: last 4 version
 */
 
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
 }
 
 body {
@@ -20,6 +23,7 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
+
 }
 
 ul {
@@ -650,11 +654,13 @@ a.card-menu.active-card:hover {
     left: 0;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .quantity {
     left: 45.6px;
   }
 }
+
 @media screen and (max-width: 948px) {
   .card-content {
     width: 49.7%;
@@ -796,6 +802,7 @@ a.card-menu.active-card:hover {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 320px) {
   .quantity {
     left: 44.5px;

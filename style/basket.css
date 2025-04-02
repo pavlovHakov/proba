@@ -24,6 +24,10 @@
   padding: 15px 0;
   margin-top: clamp(0.25rem, -0.0375rem + 1.4375vw, 1.6875rem);
 }
+a:focus{
+  outline: none !important;
+  background: transparent !important;
+}
 
 .back {
   width: clamp(1.25rem, 0.9991rem + 0.4695vw, 1.5625rem);
