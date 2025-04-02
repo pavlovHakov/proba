@@ -15,11 +15,13 @@
   top: 15px;
   cursor: pointer;
 }
+
 .block-form-answer {
   width: 100%;
   height: auto;
   margin-top: 30px;
 }
+
 .text-area {
   width: 100%;
   border: 1px solid #e8e6e6;
@@ -31,14 +33,17 @@
   resize: none;
   overflow: auto;
 }
+
 .text-area:focus {
   outline: 0.5px solid #45403f;
 }
+
 .wrapp-input {
   width: 100%;
   height: auto;
   position: relative;
 }
+
 .form-answer-canseled {
   width: 12px;
   height: 12px;
@@ -48,9 +53,11 @@
   opacity: 0.5;
   cursor: pointer;
 }
+
 .form-answer-canseled:hover {
   opacity: 1;
 }
+
 .form-answer-canseled img {
   width: 100%;
   height: auto;
@@ -61,14 +68,17 @@ button {
   outline: none;
   border: none;
 }
+
 input[type="text"]:focus {
   outline: 0.5px solid #45403f;
   background: #fff;
 }
+
 input[type="email"]:focus {
   outline: 0.5px solid #45403f;
   background: #fff;
 }
+
 input[type="text"],
 input[type="email"] {
   width: 100%;
@@ -80,6 +90,7 @@ input[type="email"] {
   border-radius: 5px;
   margin-bottom: 23px;
 }
+
 label {
   font-size: 16px;
   color: rgb(20, 25, 27);
@@ -87,6 +98,7 @@ label {
   display: block;
   margin-bottom: 23px;
 }
+
 input[type="checkbox"] {
   width: 19px;
   height: 19px;
@@ -100,6 +112,7 @@ input[type="checkbox"] {
   width: 19px;
   height: 19px;
 }
+
 input[type="checkbox"]:before {
   content: "";
   display: inline-block;
@@ -110,6 +123,7 @@ input[type="checkbox"]:before {
   border-radius: 3px;
   background-color: white;
 }
+
 input[type="checkbox"]:checked:after {
   content: "";
   display: inline-block;
@@ -137,14 +151,26 @@ input[type="submit"],
   margin-bottom: 18px;
   padding-bottom: 3px;
 }
+
 input[type="submit"]:hover {
   background: #222;
 }
+
 .cancel-answer {
   background: #fff;
   color: #302b2a;
   border: 1px solid #302b2a;
 }
+
 .hide-cancel {
   display: none;
+}
+
+@media screen and (max-width: 425px) {
+
+  input[type="submit"],
+  .cancel-answer {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
 }

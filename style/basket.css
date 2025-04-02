@@ -599,7 +599,11 @@ a:focus{
   .item-basket-img {
     width: 100%;
   }
-
+  .text-title,
+  .sidebar-title {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
   .sidebar {
     min-width: 100%;
   }
