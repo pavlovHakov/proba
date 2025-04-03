@@ -1140,7 +1140,8 @@
 
 @media screen and (max-width: 768px) {
 
-  .title-reviews-block button, .percent-questions-block button {
+  .title-reviews-block button,
+  .percent-questions-block button {
     height: 50px;
   }
 
@@ -1194,6 +1195,12 @@
   .questions-block {
     width: 100%;
     margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .block-cnp {
+    padding: 0 11px;
   }
 }
 
